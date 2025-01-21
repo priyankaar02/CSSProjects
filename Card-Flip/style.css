@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #a5b1c2;
+  height: 100vh;
+  margin: 30px 80px;
+}
+
+.wrapper {
+  perspective: 3000px;
+}
+
+.card {
+  width: 360px;
+  height: 530px;
+  transform-style: preserve-3d;
+  transition: transform 0.8s ease-in-out;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2),
+    -5px -5px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+}
+
+.card:hover {
+}
